@@ -1,0 +1,39 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/HomeCTA.astro'
+import Features from '../components/blocks/features/FeatureCards.astro'
+import ContactCards from '../components/blocks/contact/ContactCards.astro'
+
+// Content
+import aboutusimg1 from '../assets/aboutus/aboutusimg1.png'
+import aboutusimg3 from '../assets/aboutus/aboutusimg3.png'
+// - Testimonial background
+import testimonialBackground from '../assets/testimonial-bg-01.webp'
+import TextImage from '../components/blocks/basic/TextImage.astro'
+// - SEO
+const SEO = {
+	title: 'Intelexia Labs',
+	description:
+		'Transformando la eficiencia, con soluciones de inteligencia artificial a la medida',
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero />
+	<Features />
+	<TextImage
+		id='aboutus'
+		title="Innovación al Servicio de tu Negocio"
+		text="En Intelexia Labs, creemos en la transformación estratégica a través de la inteligencia artificial. Ofrecemos soluciones personalizadas diseñadas para optimizar tus recursos, reducir costos y mantenerte a la vanguardia de la innovación. "
+		image={aboutusimg3}
+		mobileImage={aboutusimg3}
+		imagePosition="left"
+		offsetImage
+		classes="bg-neutral-50 dark:bg-neutral-900"
+	/>
+	<ContactCards  classes="dark:bg-neutral-950/80" />
+</Layout>
+
