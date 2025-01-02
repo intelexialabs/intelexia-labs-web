@@ -2,7 +2,7 @@
 
 Sitio web desarrollado con Astro, TailwindCSS y componentes personalizables, creado para destacar la innovación y excelencia en soluciones tecnológicas.
 
-![Intelexia Labs](https://your-image-url-here.com/preview.png)
+![Intelexia Labs]([https://your-image-url-here.com/preview.png](https://drive.google.com/file/d/1cTmwm3DqfgYDFMqkgxt_TXstJXHwwRhp/view?usp=drive_link))
 
 [![Ver Demo en Vivo](https://your-button-image-url-here.com/demo.svg)](https://intelexialabs.example.com)
 
