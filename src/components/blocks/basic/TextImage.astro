@@ -54,7 +54,7 @@ const {
 			<picture
 				class=`text-image__picture ${offsetImage  ? 'text-image__picture--offset' : ''} ${imagePosition === 'right' ? 'text-image__picture--offset-right' : ''}`
 			>
-				{mobileImage && <source srcset={mobileImage.src} media="(max-width: 1024px)" />}
+				{mobileImage && <source srcset={mobileImage.src} media="(max-width: 800px)" />}
 				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} />
 			</picture>
 			
@@ -72,13 +72,13 @@ const {
 </Section>
 
 <style>
-  
+	
 	.text-image__picture {
-		@apply flex justify-center items-center w-full h-full;
+		@apply flex justify-center items-center;
 	}
 
 	.text-image__picture img {
-		@apply w-full h-auto object-contain; /* Ajuste para que la imagen sea completamente visible */
+		@apply w-4/5 h-auto object-contain; /* Ajuste para que la imagen sea completamente visible */
 	}
 
 	.text-image__content {
