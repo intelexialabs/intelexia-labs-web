@@ -34,7 +34,7 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
+		alt: 'Logotipo de Intelexia Labs',
 		text: 'Intelexia Labs'
 	},
 	navItems: [

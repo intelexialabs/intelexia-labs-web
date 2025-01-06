@@ -32,7 +32,7 @@ export default {
       colors: {
         transparent: "transparent",
         primary: {
-          50: "#E5F8FA", // Tonos claros de tu color principal
+          50: "#E5F8FA", // Claro
           100: "#C1F0F5",
           200: "#85E1EA",
           300: "#5FD8E3",
@@ -41,10 +41,10 @@ export default {
           600: "#22AAB6",
           700: "#1B8F96",
           800: "#145969", // Secundario oscuro
-          900: "#0A3E51",
+          900: "#0A3E51", // Muy oscuro para el fondo
         },
         neutral: {
-          50: "#EFF4F5", // Tonos claros del neutral
+          50: "#EFF4F5", // Claro
           100: "#DEE8EB",
           200: "#A9C0C2", // Secundario neutral
           300: "#7A9AA0",
@@ -53,12 +53,21 @@ export default {
           600: "#2A4A4E",
           700: "#1E3538",
           800: "#06141B", // Fondo oscuro principal
-          900: "#020A0D",
+          900: "#020A0D", // Muy oscuro
         },
         accent: {
-          500: "#087794", // Color de acento
+          500: "#087794", // Acento
           600: "#075F75",
           700: "#054B5B",
+        },
+        // Añadimos colores de texto de alto contraste
+        text: {
+          light: "#ffffff", // Blanco para textos sobre fondo oscuro
+          dark: "#1c1c1c", // Gris oscuro para textos sobre fondo claro
+        },
+        background: {
+          light: "#ffffff", // Blanco para fondo claro
+          dark: "#111111", // Fondo oscuro
         },
       },
       cursor: {
