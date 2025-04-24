@@ -83,23 +83,23 @@ export const footerNavigationData: FooterData = {
 		// 		}
 		// 	]
 		// },
-		// {
-		// 	category: 'Get in touch',
-		// 	subCategories: [
-		// 		{
-		// 			subCategory: 'Contact',
-		// 			subCategoryLink: '/contact'
-		// 		},
-		// 		{
-		// 			subCategory: 'Support',
-		// 			subCategoryLink: '/contact'
-		// 		},
-		// 		{
-		// 			subCategory: 'Join us',
-		// 			subCategoryLink: '/contact'
-		// 		}
-		// 	]
-		// }
+		{
+			category: 'Contactanos',
+			subCategories: [
+				{
+					subCategory: 'Contact',
+					subCategoryLink: '/contact'
+				},
+				{
+					subCategory: 'Support',
+					subCategoryLink: '/contact'
+				},
+				{
+					subCategory: 'Join us',
+					subCategoryLink: '/contact'
+				}
+			]
+		}
 	],
 	subFooter: {
 		copywriteText: '© Intelexia Labs 2024.'
