@@ -14,14 +14,13 @@ import CTA from '../components/blocks/CTA/BasicDark.astro'
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Pricing made simple',
-	description:
-		'Discover the perfect SaaS pricing plan for your business. From startups to enterprises, our scalable solutions offer unparalleled features and 24/7 support.'
+  title: 'Alianza Estratégica | Intelexia Labs + COTAS',
+  description: 'Infraestructura cloud robusta y soporte local en Bolivia gracias a nuestra alianza con COTAS, líder en telecomunicaciones. Soluciones IaaS adaptadas a tu empresa.'
 }
 // - Page Header
 const header = {
-	title: 'Choose the plan that works for <strong>your</strong> needs',
-	text: 'All plans come with a 30-day money-back guarantee.'
+	title: 'Potencia tu negocio con <span class="text-blue-600">infraestructura Cloud líder en Bolivia</span>',
+	text: 'La alianza entre <strong>Intelexia Labs</strong> y <strong>COTAS</strong> ofrece soluciones IaaS con fibra óptica redundante y soporte técnico local.',
 }
 // - Testimonial data
 import testimonialBackground from '../assets/testimonial-bg-02.webp'
@@ -38,7 +37,7 @@ const testimonialData = {
 	<Price />
 	<SocialProof />
 	<Feature />
-	<Testimonial
+	<!-- <Testimonial
 		bg={testimonialBackground}
 		bgPosition="left"
 		blockquote={testimonialData.blockquote}
@@ -46,5 +45,5 @@ const testimonialData = {
 		cite={testimonialData.cite}
 	/>
 	<FAQ classes="bg-slate-50 dark:bg-neutral-900/40" />
-	<CTA />
+	<CTA /> -->
 </Layout>

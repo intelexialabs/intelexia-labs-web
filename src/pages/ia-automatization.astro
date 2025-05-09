@@ -1,0 +1,28 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+
+// UI Blocks
+import Features from '../components/blocks/features/FeatureCards.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// SEO
+const SEO = {
+	title: 'Intelexia Labs | Servicios de IA y Automatización Empresarial',
+	description:
+		'Soluciones inteligentes con Inteligencia Artificial y Automatización para potenciar la eficiencia, productividad y crecimiento de tu empresa.'
+}
+
+// Hero Content
+const header = {
+	title: 'Transforma tu empresa con <strong>IA y Automatización</strong>',
+	text: 'Desarrollamos soluciones personalizadas que optimizan procesos, mejoran la toma de decisiones y aceleran tu crecimiento empresarial.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<Features />
+	<!-- <CTA /> -->
+</Layout>
