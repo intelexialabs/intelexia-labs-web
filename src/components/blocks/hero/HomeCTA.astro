@@ -12,7 +12,7 @@ import heroImage from '../../../assets/hero-01.webp';
   id="hero"
   mode="dark"
   padding="both"
-  classes={`relative min-h-[80vh] flex items-center justify-center bg-black/70 text-center overflow-hidden`}
+  classes={`relative min-h-[80vh] flex items-center justify-center text-center overflow-hidden`}
   bg={{
     src: heroImage.src,
     width: 1920,
@@ -22,10 +22,7 @@ import heroImage from '../../../assets/hero-01.webp';
   bgPosition="center"
   bgHeight="100%"
 >
-  <!-- Overlay semi-transparente -->
-  <div class="absolute inset-0 bg-black/70 z-0"></div>
-
-  <!-- Contenido centrado -->
+  <!-- Contenido principal -->
   <div class="container relative z-10 px-6 mx-auto text-white">
     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
       Transformación Digital con<br>
@@ -56,3 +53,6 @@ import heroImage from '../../../assets/hero-01.webp';
     </div>
   </div>
 </Section>
+
+
+
