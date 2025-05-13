@@ -2,9 +2,9 @@
 
 Sitio web desarrollado con Astro, TailwindCSS y componentes personalizables, creado para destacar la innovación y excelencia en soluciones tecnológicas.
 
-![Intelexia Labs]([https://drive.google.com/file/d/1cTmwm3DqfgYDFMqkgxt_TXstJXHwwRhp/view?usp=drive_link))
+![Intelexia Labs]([https://www.intelexialabs.com/))
 
-[![Ver Demo en Vivo]([https://drive.google.com/file/d/1LzebhYzVyG0TMOxtD4nZU0ohg61EIGRf/view?usp=drive_link)
+[![Ver Demo en Vivo]([https://intelexialabs-git-pages-cloud-intelexia-labs-projects.vercel.app/)
 
 ---
 
