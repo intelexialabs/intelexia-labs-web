@@ -1,45 +1,100 @@
-# Intelexia Labs
+<div align="center">
 
-Sitio web desarrollado con Astro, TailwindCSS y componentes personalizables, creado para destacar la innovación y excelencia en soluciones tecnológicas.
+# Intelexia Labs - Servicios Cloud & Automatización
 
-![Intelexia Labs]([https://www.intelexialabs.com/))
+[![Construido con Astro](https://astro.badgen.net/badge/built%20with/Astro/blue)](https://astro.build)
+[![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)
+[![Estado del Despliegue](https://img.shields.io/badge/estado-activo-success)](https://intelexialabs.com)
 
-[![Ver Demo en Vivo]([https://intelexialabs-git-pages-cloud-intelexia-labs-projects.vercel.app/)
+</div>
 
----
+## 📋 Índice
+- [Descripción](#-descripción)
+- [Características](#-características-principales)
+- [Tecnologías](#-tecnologías-utilizadas)
+- [Requisitos](#-requisitos-previos)
+- [Instalación](#-instalación)
+- [Estructura](#-estructura-del-proyecto)
+- [Despliegue](#-despliegue)
+- [Contribución](#-contribución)
+- [Contacto](#-contacto)
 
-## Introducción
+## 🚀 Descripción
+Plataforma web de Intelexia Labs que ofrece servicios de infraestructura cloud y soluciones de automatización, respaldada por una sólida alianza estratégica con COTAS en Bolivia.
 
-### Sobre Intelexia Labs
+## ✨ Características Principales
+- **Infraestructura Cloud Robusta**
+  - Servicios IaaS con fibra óptica redundante
+  - Alta disponibilidad y redundancia
+  - Centros de datos en Bolivia
 
-Intelexia Labs es una plataforma diseñada para ofrecer soluciones técnicas innovadoras y de alta calidad. Utilizando tecnologías modernas como Astro y TailwindCSS, el sitio combina rendimiento, diseño atractivo y una experiencia de usuario optimizada.
+- **Soporte Local 24/7**
+  - Asistencia técnica especializada
+  - Tiempo de respuesta garantizado
+  - Equipo técnico en Bolivia
 
-### Características
+- **Seguridad Enterprise**
+  - Protocolos avanzados de seguridad
+  - Encriptación de datos
+  - Backups automatizados
 
-- **Interfaz moderna:** Construido con TailwindCSS para un diseño limpio y responsivo.
-- **Optimización para SEO:** Mejora la visibilidad en motores de búsqueda.
-- **Soporte para modo claro y oscuro:** Personalización visual según las preferencias del usuario.
-- **Altamente personalizable:** Componentes diseñados para ser reutilizables y adaptables.
-- **Integración de blog dinámico:** Soporte para Markdown y etiquetas.
-- **Animaciones de carga y transición:** Mejora de la experiencia del usuario con efectos suaves.
-- **Código limpio y modular:** Estructura organizada para facilitar el mantenimiento y escalabilidad.
-- **Formulario de contacto funcional:** Preparado para recibir consultas de usuarios.
+- **Monitoreo en Tiempo Real**
+  - Dashboard personalizado
+  - Métricas en tiempo real
+  - Alertas configurables
 
----
+## 🛠️ Tecnologías Utilizadas
+- **Frontend**
+  - [Astro](https://astro.build) - Framework web
+  - [TailwindCSS](https://tailwindcss.com) - Framework CSS
+  - [TypeScript](https://www.typescriptlang.org) - Lenguaje de programación
 
-## Comenzando 🚀
+- **Optimización**
+  - Astro SEO
+  - Partytown
+  - Compresión de imágenes
 
-### Requisitos previos
-
-1. **Node.js**: Instala la versión 20.3.0 o superior desde [aquí](https://nodejs.org/en/download/).
-
-### Instalación
-
-Sigue estos pasos para instalar y ejecutar el proyecto localmente:
-
+## 🚦 Requisitos Previos
 ```bash
-# Instalar dependencias
+node >= 18.14.1
+npm >= 9.3.1
+Run
+git clone https://github.com/intelexia-labs/web.git
+Instalar dependencias
+bash
+Run
 npm install
-
-# Iniciar servidor local
+Iniciar el servidor de desarrollo
+bash
+Run
 npm run dev
+📦 Estructura del Proyecto
+plaintext
+
+intelexia-labs-web/├── src/│   ├── components/     # Componentes reutilizables│   ├── layouts/       # Plantillas de página│   ├── pages/         # Páginas del sitio│   ├── content/       # Contenido del blog│   └── styles/        # Estilos globales├── public/           # Archivos estáticos└── astro.config.mjs  # Configuración de Astro
+🚀 Despliegue
+El sitio se despliega automáticamente en producción mediante GitHub Actions cuando se realiza un push a la rama main.
+
+bash
+Run
+npm run build
+📝 Licencia
+Copyright © 2024 Intelexia Labs
+
+👥 Contribución
+Fork el proyecto
+Crea tu rama de características (git checkout -b feature/AmazingFeature)
+Commit tus cambios (git commit -m 'Add: nueva característica')
+Push a la rama (git push origin feature/AmazingFeature)
+Abre un Pull Request
+📞 Contacto
+Sitio Web: intelexialabs.com
+Email: contacto@intelexialabs.com
+LinkedIn: Intelexia Labs
+🌟 Agradecimientos
+COTAS por su alianza estratégica
+Nuestro equipo de desarrollo
+La comunidad de código abierto
+
+
+Desarrollado con ❤️ por Intelexia Labs

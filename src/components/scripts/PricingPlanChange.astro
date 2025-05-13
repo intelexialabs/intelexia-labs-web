@@ -1,23 +1,44 @@
-<!-- Pricing plans: A simple script to toggle the pricing plans between annualy and monthly -->
 <script>
-	document.addEventListener('astro:page-load', () => {
-		const pricingTypeCheckbox = document.getElementById('pricingType')
-		const montlyLabel = document.getElementById('monthlyLabel')
-		const annualyLabel = document.getElementById('annualLabel')
-		const plans = ['plan-0', 'plan-1', 'plan-2']
-		if (pricingTypeCheckbox) {
-			pricingTypeCheckbox.addEventListener('change', function () {
-				plans.forEach((plan) => {
-					const planElement = document.getElementById(plan)
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('pricingType') as HTMLInputElement;
+    const pricingTables = document.querySelectorAll('.pricing');
+    const monthlyLabel = document.getElementById('monthlyLabel');
+    const annualLabel = document.getElementById('annualLabel');
 
-					if (planElement && montlyLabel && annualyLabel) {
-						planElement.classList.toggle('pricing--annualy')
-						planElement.classList.toggle('pricing--monthly')
-						montlyLabel.classList.toggle('text-primary-500')
-						annualyLabel.classList.toggle('text-primary-500')
-					}
-				})
-			})
-		}
-	})
+    // Establecer estado inicial
+    if (toggle) {
+      toggle.checked = false; // Iniciar en mensual
+      
+      // Aplicar estado inicial a las tablas
+      pricingTables.forEach(table => {
+        table.classList.add('pricing--monthly');
+        table.classList.remove('pricing--annualy');
+      });
+      
+      // Aplicar estado inicial a las etiquetas
+      monthlyLabel?.classList.add('text-primary-500');
+      annualLabel?.classList.remove('text-primary-500');
+
+      // Manejar cambios
+      toggle.addEventListener('change', () => {
+        const isAnnual = toggle.checked;
+        
+        pricingTables.forEach(table => {
+          if (isAnnual) {
+            // Mostrar precios anuales
+            table.classList.remove('pricing--monthly');
+            table.classList.add('pricing--annualy');
+            monthlyLabel?.classList.remove('text-primary-500');
+            annualLabel?.classList.add('text-primary-500');
+          } else {
+            // Mostrar precios mensuales
+            table.classList.remove('pricing--annualy');
+            table.classList.add('pricing--monthly');
+            monthlyLabel?.classList.add('text-primary-500');
+            annualLabel?.classList.remove('text-primary-500');
+          }
+        });
+      });
+    }
+  });
 </script>

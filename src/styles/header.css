@@ -1,0 +1,5 @@
+/* ... existing code ... */
+.header__menu-link:hover {
+  @apply text-primary-500;
+}
+/* ... existing code ... */
