@@ -1,78 +1,92 @@
 [
 	{
-		"header": {
-			"title": "Basic",
-			"subtitle": "Ideal for individual developers.",
-			"currency": "$",
-			"price": "19",
-			"priceLabel": "month, billed anually",
-			"priceMontly": "25",
-			"priceLabelMontly": "month",
-			"buttonName": "Try for free",
-			"buttonLink": "/"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." }
-			]
-		},
-		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
-		},
-		"type": "basic"
+	  "header": {
+		"title": "SMALL",
+		"subtitle": "Para startups y proyectos pequeños",
+		"currency": "$us",
+		"price": "89",
+		"priceLabel": "mensuales",
+		"priceMontly": "89",
+		"priceLabelMontly": "pago mensual",
+		"buttonName": "Contratar",
+		"buttonLink": "/contacto"
+	  },
+	  "body": {
+		"listItems": [
+		  { "listItem": "2 núcleos vCPU" },
+		  { "listItem": "1GB RAM DDR4" },
+		  { "listItem": "60GB SSD NVMe" },
+		  { "listItem": "Red 1Gbps dedicada" },
+		  { "listItem": "Fibra óptica redundante" },
+		  { "listItem": "2 Enlaces FO" },
+		  { "listItem": "20 Mbps de ancho de banda" }
+		]
+	  },
+	  "footer": {
+		"buttonName": "Ver especificaciones",
+		"buttonLink": "/servicios/small"
+	  },
+	  "type": "basic"
 	},
 	{
-		"header": {
-			"title": "Team",
-			"subtitle": "Ideal for small teams",
-			"currency": "$",
-			"price": "29",
-			"priceLabel": "month, billed anually",
-			"priceMontly": "35",
-			"priceLabelMontly": "month",
-			"buttonName": "Try for free",
-			"buttonLink": "/"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." },
-				{ "listItem": "Unlock endless inspiration" }
-			]
-		},
-		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
-		},
-		"type": "featured"
+	  "header": {
+		"title": "MEDIUM",
+		"subtitle": "Para medianas empresas",
+		"currency": "$us",
+		"price": "159",
+		"priceLabel": "mensuales",
+		"priceMontly": "159",
+		"priceLabelMontly": "pago mensual",
+		"buttonName": "Contratar",
+		"buttonLink": "/contacto"
+	  },
+	  "body": {
+		"listItems": [
+		  { "listItem": "4 núcleos vCPU" },
+		  { "listItem": "2GB RAM DDR4" },
+		  { "listItem": "100GB SSD NVMe" },
+		  { "listItem": "Red 1Gbps dedicada" },
+		  { "listItem": "Fibra óptica redundante" },
+		  { "listItem": "2 Enlaces FO" },
+		  { "listItem": "100 Mbps de ancho de banda" },
+		  { "listItem": "Soporte prioritario 24/7" }
+		]
+	  },
+	  "footer": {
+		"buttonName": "Ver especificaciones",
+		"buttonLink": "/servicios/medium"
+	  },
+	  "type": "featured"
 	},
 	{
-		"header": {
-			"title": "Enterprise",
-			"subtitle": "Ideal for companies",
-			"currency": "$",
-			"price": "49",
-			"priceLabel": "month, billed anually",
-			"priceMontly": "65",
-			"priceLabelMontly": "month",
-			"buttonName": "Try for free",
-			"buttonLink": "/"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Join forces with fellow architects" },
-				{ "listItem": "Present your projects with flair and captivate your audience." },
-				{ "listItem": "Immerse yourself in the dynamic realm of architecture." }
-			]
-		},
-		"footer": {
-			"buttonName": "See all features",
-			"buttonLink": "/"
-		},
-		"type": "basic"
+	  "header": {
+		"title": "LARGE",
+		"subtitle": "Para corporaciones y alta demanda",
+		"currency": "$us",
+		"price": "299",
+		"priceLabel": "mensuales",
+		"priceMontly": "299",
+		"priceLabelMontly": "pago mensual",
+		"buttonName": "Contratar",
+		"buttonLink": "/contacto"
+	  },
+	  "body": {
+		"listItems": [
+		  { "listItem": "8 núcleos vCPU" },
+		  { "listItem": "16GB RAM DDR4" },
+		  { "listItem": "200GB SSD NVMe" },
+		  { "listItem": "Red 1Gbps dedicada" },
+		  { "listItem": "Fibra óptica redundante" },
+		  { "listItem": "2 Enlaces FO" },
+		  { "listItem": "200 Mbps de ancho de banda" },
+		  { "listItem": "Soporte dedicado 24/7" },
+		  { "listItem": "Backup diario incluido" }
+		]
+	  },
+	  "footer": {
+		"buttonName": "Ver especificaciones",
+		"buttonLink": "/servicios/large"
+	  },
+	  "type": "basic"
 	}
-]
+  ]

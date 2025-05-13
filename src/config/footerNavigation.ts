@@ -66,23 +66,19 @@ export const footerNavigationData: FooterData = {
 				}
 			]
 		},
-		// {
-		// 	category: 'About us',
-		// 	subCategories: [
-		// 		{
-		// 			subCategory: 'About us',
-		// 			subCategoryLink: '/'
-		// 		},
-		// 		{
-		// 			subCategory: 'News',
-		// 			subCategoryLink: '/blog'
-		// 		},
-		// 		{
-		// 			subCategory: 'Careers',
-		// 			subCategoryLink: '/blog'
-		// 		}
-		// 	]
-		// },
+		{
+			category: 'Contacto',
+			subCategories: [
+				{
+					subCategory: 'Telefono: +591 75528111',
+					subCategoryLink: 'https://wa.me/59175528111'
+				},
+				{
+					subCategory: 'jmantelo@intelexialabs.com',
+					subCategoryLink: '/#contact'
+				},
+			]
+		},
 		// {
 		// 	category: 'Contactanos',
 		// 	subCategories: [

@@ -123,22 +123,6 @@ const { type, header, body, footer } = data
 				</Body>
 			)
 		}
-		{
-			footer && (
-				<Footer type={type}>
-					<Button
-						size="lg"
-						style="primary"
-						type="link"
-						link={footer.buttonLink}
-						variation="link"
-						classes={'!font-medium ' + (type === 'featured' ? '!text-white' : '')}
-					>
-						{footer.buttonName}
-					</Button>
-				</Footer>
-			)
-		}
 	</div>
 </div>
 

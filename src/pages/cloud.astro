@@ -1,0 +1,41 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import Price from '../components/blocks/pricing/PricingColumns.astro'
+import SocialProof from '../components/blocks/socialproof/Basic.astro'
+import FAQ from '../components/blocks/FAQ/Basic.astro'
+import Testimonial from '../components/blocks/testimonials/BasicDark.astro'
+import Feature from '../components/blocks/features/FeatureList.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Content
+// - SEO
+const SEO = {
+  title: 'Alianza Estratégica | Intelexia Labs + COTAS',
+  description: 'Infraestructura cloud robusta y soporte local en Bolivia gracias a nuestra alianza con COTAS, líder en telecomunicaciones. Soluciones IaaS adaptadas a tu empresa.'
+}
+// - Page Header
+const header = {
+	title: 'Potencia tu negocio con <span class="text-blue-600">infraestructura Cloud líder en Bolivia</span>',
+	text: 'La alianza entre <strong>Intelexia Labs</strong> y <strong>COTAS</strong> ofrece soluciones IaaS con fibra óptica redundante y soporte técnico local.',
+}
+// - Testimonial data
+import testimonialBackground from '../assets/testimonial-bg-02.webp'
+const testimonialData = {
+	blockquote:
+		"Foxi isn't just an app—it's like having a mischievous yet brilliant sidekick for your business. It streamlines tasks and also cracks jokes to keep spirits high",
+	figcaption: 'Max Widgetson',
+	cite: ' CEO, Widgetify Ltd'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<Price />
+	<SocialProof />
+	<Feature />
+t a -->
+</Layout>
