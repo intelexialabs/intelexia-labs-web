@@ -38,11 +38,10 @@ export const navigationBarData: NavData = {
 		text: 'Intelexia Labs'
 	},
 	navItems: [
-		{ name: 'Inicio', link: '/' },
-		{ name: 'IA & Automatización', link: '/ia-automatization' },
-		{ name: 'Servicios Cloud', link: '/cloud'},
-		{ name: 'Sobre Nosotros', link: '/#aboutus' },
-		{ name: 'Contacto', link: '/#contact' },
+		{ name: 'Inicio', link: '#intro' },
+		{ name: 'Servicios', link: '#features' },
+		{ name: 'Sobre Nosotros', link: '#aboutus' },
+		{ name: 'Contacto', link: '#contact' },
 		// {
 		// 	name: 'Resources',
 		// 	link: '#',

@@ -1,64 +1,64 @@
-	[
-		{
-		  "title": "Monitoreo en Tiempo Real",
-		  "icon": "chart-pie",
-		  "description": "Supervisión continua del rendimiento de servidores con métricas de CPU, RAM, red y almacenamiento en tiempo real.",
-		  "category": "Monitoreo"
-		},
-		{
-		  "title": "Paneles Personalizables",
-		  "icon": "squares-plus",
-		  "description": "Dashboards configurables para visualizar las métricas más relevantes de tu infraestructura cloud.",
-		  "category": "Monitoreo"
-		},
-		{
-		  "title": "Gestión de Instancias",
-		  "icon": "computer-desktop",
-		  "description": "Creación, escalado y administración de instancias virtuales con un solo clic.",
-		  "category": "Computación"
-		},
-		{
-		  "title": "Integración con APIs",
-		  "icon": "rocket",
-		  "description": "API RESTful para integrar nuestros servicios con tus herramientas existentes.",
-		  "category": "Integraciones"
-		},
-		{
-		  "title": "Acceso Móvil",
-		  "icon": "device-phone-mobile",
-		  "description": "Aplicación móvil para monitorear y gestionar tu infraestructura desde cualquier lugar.",
-		  "category": "Accesibilidad"
-		},
-		{
-		  "title": "Soporte Técnico 24/7",
-		  "icon": "mdi--support",
-		  "description": "Asistencia técnica especializada disponible las 24 horas, los 7 días de la semana.",
-		  "category": "Soporte"
-		},
-		{
-		  "title": "Seguridad Avanzada",
-		  "icon": "shield-check",
-		  "description": "Firewalls, encriptación SSL y protocolos de seguridad enterprise para proteger tus datos.",
-		  "category": "Seguridad"
-		},
-		{
-		  "title": "Escalabilidad Automática",
-		  "icon": "arrow-trending-up",
-		  "description": "Aumento automático de recursos según la demanda, sin interrupciones.",
-		  "category": "Computación"
-		},
-		{
-		  "title": "Alertas Configurables",
-		  "icon": "bell-alert",
-		  "description": "Notificaciones personalizables por email, SMS o webhook ante eventos críticos.",
-		  "category": "Monitoreo"
-		},
-		{
-		  "title": "Reportes Detallados",
-		  "icon": "clipboard-document-list",
-		  "description": "Generación de reportes periódicos de uso, rendimiento y costos.",
-		  "category": "Analítica"
-		},
+[
+	{
+		"title": "Real-Time Analytics",
+		"icon": "chart-pie",
+		"description": "Gain valuable insights instantly with Foxi's real-time analytics. Track performance metrics, user behavior, and campaign effectiveness effortlessly.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Customizable Dashboards",
+		"icon": "squares-plus",
+		"description": "Tailor your workspace with personalized dashboards that suit your workflow. Stay organized and focused on what matters most to your business.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Task Management",
+		"icon": "cliboard-document-check",
+		"description": "Efficiently manage tasks and projects with Foxi's intuitive task management tools. Assign, track progress, and collaborate seamlessly.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Third-Party Apps",
+		"icon": "rocket",
+		"description": "Connect Foxi with your favorite tools and apps effortlessly. Streamline workflows and enhance productivity with seamless integrations.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Mobile Accessibility",
+		"icon": "device-phone-mobile",
+		"description": "Stay productive on the go with Foxi's mobile app. Access key features, collaborate with your team, and manage tasks anytime, anywhere.",
+		"category": "Support"
+	},
+	{
+		"title": "Dedicated Customer Support",
+		"icon": "trophy",
+		"description": "Receive exceptional customer support whenever you need it. Our dedicated team is here 24/7 to assist you with any questions or issues.",
+		"category": "Support"
+	},
+	{
+		"title": "Robust Data Security",
+		"icon": "shield-check",
+		"description": "Rest assured knowing your data is safe with Foxi's robust security measures. We employ industry-standard protocols to protect your information.",
+		"category": "Security"
+	},
+	{
+		"title": "Scalability",
+		"icon": "arrow-treding-up",
+		"description": "Grow your business with confidence using Foxi's scalable platform. Whether you're a startup or a large enterprise, our solution adapts to your needs.",
+		"category": "Security"
+	},
+	{
+		"title": "Real-Time Notifications",
+		"icon": "bell-alert",
+		"description": "Stay updated with real-time notifications for important events and updates. Never miss out on critical information with instant alerts.",
+		"category": "Security"
+	},
+	{
+		"title": "Advanced Reporting",
+		"icon": "clipboard-document-list",
+		"description": "Generate detailed reports with advanced analytics features. Customize reports to track key performance indicators and gain deeper insights.",
+		"category": "Analytics"
+	},
 	{
 		"title": "Team Collaboration Tools",
 		"icon": "user-group",
